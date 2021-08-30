@@ -146,5 +146,13 @@ this.wushi02 <- this.inherit("scripts/entity/tactical/human", {
 		}
 		return true;
 	}
+	function onDeath( _killer, _skill, _tile, _fatalityType )
+	{
+		if (!this.World.Flags.has("Wushi02_Defeated"))
+		{
+			this.World.Flags.add("Wushi02_Defeated");
+		}
+		this.actor.onDeath(_killer, _skill, _tile, _fatalityType);
+	}	
 });
 
