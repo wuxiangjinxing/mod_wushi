@@ -1,9 +1,28 @@
 ::mods_registerMod("mod_wushi", 1.0, "The Samurai");
-
-local gt = this.getroottable();
-
-::mods_queue(null, null, function()
-{		
+::mods_queue("mod_wushi", ">mod_legends", function()
+{
+	::mods_hookNewObjectOnce("states/world/asset_manager", function (o)
+	{
+		while (!("update" in o)) o = o[o.SuperName];
+		local update = o.update;		
+		o.update = function(_worldState)
+		{	
+			update(_worldState)
+			if (!this.World.Flags.get("spawnedWushi"))
+			{
+				this.logInfo("Start building Wushi faction");
+				local wushi_faction = this.new("scripts/factions/wushi_faction")
+				local faction_manager = this.World.FactionManager
+				wushi_faction.setID(faction_manager.m.Factions.len());
+				wushi_faction.setName("Samurai");
+				wushi_faction.setDiscovered(true);
+				wushi_faction.addTrait(this.Const.FactionTrait.Wushi);
+				faction_manager.m.Factions.push(wushi_faction);
+				this.World.Flags.set("spawnedWushi", true)
+			}
+		}
+	})
+	
 	::mods_hookExactClass("ai/tactical/behaviors/ai_attack_default", function ( o )
 	{
 		o.m.PossibleSkills.push("actives.wushiweapon03_01");

@@ -10,6 +10,7 @@ this.build_wushi_camp_action <- this.inherit("scripts/factions/faction_action", 
 	function onUpdate( _faction )
 	{
 		local settlements = _faction.getSettlements();
+		this.logInfo("Wushi faction has " + settlements.len() + " camps")
 
 		if (this.World.FactionManager.isCivilWar() && this.World.FactionManager.getGreaterEvilStrength() >= 20.0)
 		{
@@ -30,7 +31,7 @@ this.build_wushi_camp_action <- this.inherit("scripts/factions/faction_action", 
 			return;
 		}
 
-		this.m.Score = 2;
+		this.m.Score = 20;
 	}
 
 	function onClear()
@@ -43,7 +44,7 @@ this.build_wushi_camp_action <- this.inherit("scripts/factions/faction_action", 
 		local r = this.Math.rand(1, 3);
 		local minY = this.Const.DLC.Desert ? 0.2 : 0.0;
 		local maxY = this.Const.DLC.Wildmen ? 0.75 : 1.0;
-
+		this.logInfo("Start building wushi camps");
 		if (r == 1)
 		{
 			local tile = this.getTileToSpawnLocation(this.Const.Factions.BuildCampTries, [
@@ -87,6 +88,7 @@ this.build_wushi_camp_action <- this.inherit("scripts/factions/faction_action", 
 			camp.onSpawned();
 			camp.setBanner(banner);
 			_faction.addSettlement(camp, false);
+			this.logInfo("Successfully build a wushi camp");
 		}
 	}
 
