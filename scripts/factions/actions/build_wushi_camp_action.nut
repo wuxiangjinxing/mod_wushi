@@ -2,7 +2,7 @@ this.build_wushi_camp_action <- this.inherit("scripts/factions/faction_action", 
 	m = {},
 	function create()
 	{
-		this.m.ID = "build_bandit_wushi_action";
+		this.m.ID = "build_wushi_camp_action";
 		this.m.IsRunOnNewCampaign = true;
 		this.faction_action.create();
 	}
@@ -53,7 +53,7 @@ this.build_wushi_camp_action <- this.inherit("scripts/factions/faction_action", 
 
 			if (tile != null)
 			{
-				camp = this.World.spawnLocation("scripts/entity/world/locations/bandit_camp_location", tile.Coords);
+				camp = this.World.spawnLocation("scripts/entity/world/locations/wushi_camp_location.nut", tile.Coords);
 			}
 		}
 		else if (r == 2)
@@ -65,7 +65,7 @@ this.build_wushi_camp_action <- this.inherit("scripts/factions/faction_action", 
 
 			if (tile != null)
 			{
-				camp = this.World.spawnLocation("scripts/entity/world/locations/bandit_hideout_location", tile.Coords);
+				camp = this.World.spawnLocation("scripts/entity/world/locations/wushi02_camp_location.nut", tile.Coords);
 			}
 		}
 		else if (r == 3)
@@ -77,13 +77,13 @@ this.build_wushi_camp_action <- this.inherit("scripts/factions/faction_action", 
 
 			if (tile != null)
 			{
-				camp = this.World.spawnLocation("scripts/entity/world/locations/bandit_ruins_location", tile.Coords);
+				camp = this.World.spawnLocation("scripts/entity/world/locations/wushi03_camp_location.nut", tile.Coords);
 			}
 		}
 
 		if (camp != null)
 		{
-			local banner = this.getAppropriateBanner(camp, _faction.getSettlements(), 15, this.Const.BanditBanners);
+			local banner = this.getAppropriateBanner(camp, _faction.getSettlements(), 15, this.Const.WushiBanners);
 			camp.onSpawned();
 			camp.setBanner(banner);
 			_faction.addSettlement(camp, false);
