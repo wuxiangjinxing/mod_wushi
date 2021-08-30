@@ -29,11 +29,6 @@ this.wushi03_camp_location <- this.inherit("scripts/entity/world/location", {
 		
 		local Troops = 
 		[		
-		    
-		    {
-			Type = this.Const.World.Spawn.Troops.Wushi05,
-			Num = 1
-			},	
 			{
 			Type = this.Const.World.Spawn.Troops.Ghost,
 			Num = 5
@@ -56,6 +51,8 @@ this.wushi03_camp_location <- this.inherit("scripts/entity/world/location", {
 			{
 				this.Const.World.Common.addTroop(this, {Type = troop.Type}, false);
 			}
+			if (!this.World.Flags.has("Wushi05_Defeated"))
+				this.Const.World.Common.addTroop(this, {Type = this.Const.World.Spawn.Troops.Wushi05}, false);			
 		}
 		
 	}
