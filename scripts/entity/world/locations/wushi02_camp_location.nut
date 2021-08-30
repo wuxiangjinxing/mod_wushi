@@ -41,15 +41,7 @@ this.wushi02_camp_location <- this.inherit("scripts/entity/world/location", {
 		    {
 			Type = this.Const.World.Spawn.Troops.Zuqing,
 			Num = 8
-			}	
-		    {
-			Type = this.Const.World.Spawn.Troops.Wushi03,
-			Num = 1
-			}	
-			{
-			Type = this.Const.World.Spawn.Troops.Wushi04,
-			Num = 1
-			}	
+			}		
 			{
 			Type = this.Const.World.Spawn.Troops.Wushi,
 			Num = 5
@@ -76,6 +68,10 @@ this.wushi02_camp_location <- this.inherit("scripts/entity/world/location", {
 			{
 				this.Const.World.Common.addTroop(this, {Type = troop.Type}, false);
 			}
+			if (!this.World.Flags.has("Wushi03_Defeated"))
+				this.Const.World.Common.addTroop(this, {Type = this.Const.World.Spawn.Troops.Wushi03}, false);
+			if (!this.World.Flags.has("Wushi04_Defeated"))
+				this.Const.World.Common.addTroop(this, {Type = this.Const.World.Spawn.Troops.Wushi04}, false);			
 		}
 		this.Const.World.Common.addTroop(this, {Type = Amoghasiddhi}, false, 100);
 	}
