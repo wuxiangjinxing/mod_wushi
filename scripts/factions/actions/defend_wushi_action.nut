@@ -94,9 +94,9 @@ this.defend_wushi_action <- this.inherit("scripts/factions/faction_action", {
 			{
 				mult *= distanceToNextSettlement / 14.0;
 			}
-			local party = this.getFaction().spawnEntity(spawnpoints[i], "Brigands", false, this.Const.World.Spawn.BanditDefenders, this.m.Settlement.getResources() * mult);
+			local party = this.getFaction().spawnEntity(spawnpoints[i], "Wokou", false, this.Const.World.Spawn.BanditDefenders, this.m.Settlement.getResources() * mult);
 			party.getSprite("banner").setBrush(this.m.Settlement.getBanner());
-			party.setDescription("A rough and tough band of brigands preying on the weak.");
+			party.setDescription("A rough and tough band of exotic warriors preying on the weak.");
 			party.setFootprintType(this.Const.World.FootprintsType.Brigands);
 			party.getFlags().set("IsRandomlySpawned", true);
 			local c = party.getController();

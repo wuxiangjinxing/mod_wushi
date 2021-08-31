@@ -31,7 +31,12 @@ gt.Const.WushiTraits <- [
 "scripts/factions/actions/defend_wushi_action"]
 
 gt.Const.FactionTrait.Wushi <- 20;
-gt.Const.FactionTrait.Actions.push(["scripts/factions/actions/build_wushi_camp_action", "scripts/factions/actions/defend_wushi_action"]);
+gt.Const.FactionTrait.Actions.push([
+"scripts/factions/actions/build_wushi_camp_action",
+"scripts/factions/actions/send_wushi_ambushers_action",
+"scripts/factions/actions/send_wushi_roamers_action",
+"scripts/factions/actions/defend_wushi_action"
+]);
 
 gt.Const.WushiBanners <- [
 	"banner_wushi"	
