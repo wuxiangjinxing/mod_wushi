@@ -10,16 +10,8 @@ this.build_wushi_camp_action <- this.inherit("scripts/factions/faction_action", 
 	function onUpdate( _faction )
 	{
 		local settlements = _faction.getSettlements();
-		this.logInfo("Wushi faction has " + settlements.len() + " camps")
 
-		if (this.World.FactionManager.isCivilWar() && this.World.FactionManager.getGreaterEvilStrength() >= 20.0)
-		{
-			if (settlements.len() > (this.Const.DLC.Wildmen ? 12 : 16))
-			{
-				return;
-			}
-		}
-		else if (this.World.FactionManager.isGreaterEvil())
+		if (this.World.FactionManager.isGreaterEvil())
 		{
 			if (settlements.len() > (this.Const.DLC.Wildmen ? 6 : 8))
 			{
@@ -31,7 +23,7 @@ this.build_wushi_camp_action <- this.inherit("scripts/factions/faction_action", 
 			return;
 		}
 
-		this.m.Score = 20;
+		this.m.Score = this.Math.max(2, 10 - settlements.len());
 	}
 
 	function onClear()
@@ -42,15 +34,13 @@ this.build_wushi_camp_action <- this.inherit("scripts/factions/faction_action", 
 	{
 		local camp;
 		local r = this.Math.rand(1, 3);
-		local minY = this.Const.DLC.Desert ? 0.2 : 0.0;
-		local maxY = this.Const.DLC.Wildmen ? 0.75 : 1.0;
-		this.logInfo("Start building wushi camps");
+		local minY = 0.0;
+		local maxY = 1.0;
+		local tries = this.Math.min(10, this.m.Score);
+		local disallowedTerrain = [this.Const.World.TerrainType.Mountains, this.Const.World.TerrainType.Impassable, this.Const.World.TerrainType.Ocean];
 		if (r == 1)
 		{
-			local tile = this.getTileToSpawnLocation(this.Const.Factions.BuildCampTries, [
-				this.Const.World.TerrainType.Mountains,
-				this.Const.World.TerrainType.Snow
-			], 7, 16, 1000, 7, 7, null, minY, maxY);
+			local tile = this.getTileToSpawnLocation(tries, disallowedTerrain, 7, 1000, 1000, 7, 7, null, minY, maxY);
 
 			if (tile != null)
 			{
@@ -59,10 +49,7 @@ this.build_wushi_camp_action <- this.inherit("scripts/factions/faction_action", 
 		}
 		else if (r == 2)
 		{
-			local tile = this.getTileToSpawnLocation(this.Const.Factions.BuildCampTries, [
-				this.Const.World.TerrainType.Mountains,
-				this.Const.World.TerrainType.Snow
-			], 6, 12, 1000, 7, 7, null, minY, maxY);
+			local tile = this.getTileToSpawnLocation(tries, disallowedTerrain, 7, 1000, 1000, 7, 7, null, minY, maxY);
 
 			if (tile != null)
 			{
@@ -71,10 +58,7 @@ this.build_wushi_camp_action <- this.inherit("scripts/factions/faction_action", 
 		}
 		else if (r == 3)
 		{
-			local tile = this.getTileToSpawnLocation(this.Const.Factions.BuildCampTries, [
-				this.Const.World.TerrainType.Mountains,
-				this.Const.World.TerrainType.Snow
-			], 10, 20, 1000, 7, 7, null, minY, maxY);
+			local tile = this.getTileToSpawnLocation(tries, disallowedTerrain, 7, 1000, 1000, 7, 7, null, minY, maxY);
 
 			if (tile != null)
 			{
@@ -88,7 +72,7 @@ this.build_wushi_camp_action <- this.inherit("scripts/factions/faction_action", 
 			camp.onSpawned();
 			camp.setBanner(banner);
 			_faction.addSettlement(camp, false);
-			this.logInfo("Successfully build a wushi camp");
+			camp.getSprite("selection").Visible = true;
 		}
 	}
 

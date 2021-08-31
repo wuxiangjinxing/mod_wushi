@@ -67,12 +67,14 @@ this.wushi02_camp_location <- this.inherit("scripts/entity/world/location", {
 			for( local i = 0; i < troop.Num; i = ++i )
 			{
 				this.Const.World.Common.addTroop(this, {Type = troop.Type}, false);
-			}
-			if (!this.World.Flags.has("Wushi03_Defeated"))
-				this.Const.World.Common.addTroop(this, {Type = this.Const.World.Spawn.Troops.Wushi03}, false);
-			if (!this.World.Flags.has("Wushi04_Defeated"))
-				this.Const.World.Common.addTroop(this, {Type = this.Const.World.Spawn.Troops.Wushi04}, false);			
+			}			
 		}
+		if (!this.World.Flags.has("Wushi03_Defeated"))
+			this.Const.World.Common.addTroop(this, {Type = this.Const.World.Spawn.Troops.Wushi03}, false);
+			
+		if (!this.World.Flags.has("Wushi04_Defeated"))
+			this.Const.World.Common.addTroop(this, {Type = this.Const.World.Spawn.Troops.Wushi04}, false);
+			
 		this.Const.World.Common.addTroop(this, {Type = Amoghasiddhi}, false, 100);
 	}
 
