@@ -72,7 +72,6 @@ this.build_wushi_camp_action <- this.inherit("scripts/factions/faction_action", 
 			camp.onSpawned();
 			camp.setBanner(banner);
 			_faction.addSettlement(camp, false);
-			camp.getSprite("selection").Visible = true;
 		}
 	}
 
