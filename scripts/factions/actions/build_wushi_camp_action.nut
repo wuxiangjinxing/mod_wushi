@@ -68,7 +68,7 @@ this.build_wushi_camp_action <- this.inherit("scripts/factions/faction_action", 
 
 		if (camp != null)
 		{
-			local banner = this.getAppropriateBanner(camp, _faction.getSettlements(), 15, this.Const.WushiBanners);
+			local banner = this.Const.WushiBanners[this.Math.rand(0, this.Const.WushiBanners.len() - 1)];
 			camp.onSpawned();
 			camp.setBanner(banner);
 			_faction.addSettlement(camp, false);
