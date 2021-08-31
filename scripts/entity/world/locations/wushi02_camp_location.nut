@@ -26,16 +26,6 @@ this.wushi02_camp_location <- this.inherit("scripts/entity/world/location", {
 	{
 		this.location.onSpawned();
 		
-		local Amoghasiddhi = {
-		ID = this.Const.EntityType.Sengbing,
-		Variant = 1,
-		Strength = 20,
-		Cost = 20,
-		Row = 1,
-		Script = "scripts/entity/tactical/humans/sengbing",
-		NameList = ["Amoghasiddhi"],
-		TitleList = null
-		}
 		local Troops = 
 		[		
 		    {
@@ -57,9 +47,7 @@ this.wushi02_camp_location <- this.inherit("scripts/entity/world/location", {
 			{
 			Type = this.Const.World.Spawn.Troops.Sengbing,
 			Num = 6
-			}	
-			
-			
+			}				
 		]
 		
 		foreach(troop in Troops)
@@ -74,8 +62,6 @@ this.wushi02_camp_location <- this.inherit("scripts/entity/world/location", {
 			
 		if (!this.World.Flags.has("Wushi04_Defeated"))
 			this.Const.World.Common.addTroop(this, {Type = this.Const.World.Spawn.Troops.Wushi04}, false);
-			
-		this.Const.World.Common.addTroop(this, {Type = Amoghasiddhi}, false, 100);
 	}
 
 	function onDropLootForPlayer( _lootTable )
