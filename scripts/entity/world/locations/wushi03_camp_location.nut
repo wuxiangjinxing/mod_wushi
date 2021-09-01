@@ -8,7 +8,7 @@ this.wushi03_camp_location <- this.inherit("scripts/entity/world/location", {
 	function create()
 	{
 		this.location.create();
-		this.m.Name = "The Eastern Army Battalion";
+		this.m.Name = "Onimusha";
 		this.m.TypeID = "location.wushi03_camp";
 		this.m.LocationType = this.Const.World.LocationType.Lair;
 		this.m.CombatLocation.Template[0] = "tactical.desert_camp";

@@ -33,7 +33,6 @@ this.build_wushi_camp_action <- this.inherit("scripts/factions/faction_action", 
 	function onExecute( _faction )
 	{
 		local camp;
-		local campName;
 		local r = this.Math.rand(1, 3);
 		local minY = 0.0;
 		local maxY = 1.0;
@@ -46,7 +45,6 @@ this.build_wushi_camp_action <- this.inherit("scripts/factions/faction_action", 
 			if (tile != null)
 			{
 				camp = this.World.spawnLocation("scripts/entity/world/locations/wushi_camp_location.nut", tile.Coords);
-				campName = "Samurai stronghold";
 			}
 		}
 		else if (r == 2)
@@ -56,7 +54,6 @@ this.build_wushi_camp_action <- this.inherit("scripts/factions/faction_action", 
 			if (tile != null)
 			{
 				camp = this.World.spawnLocation("scripts/entity/world/locations/wushi02_camp_location.nut", tile.Coords);
-				campName = "Large samurai fortress";
 			}
 		}
 		else if (r == 3)
@@ -66,14 +63,12 @@ this.build_wushi_camp_action <- this.inherit("scripts/factions/faction_action", 
 			if (tile != null)
 			{
 				camp = this.World.spawnLocation("scripts/entity/world/locations/wushi03_camp_location.nut", tile.Coords);
-				campName = "Onimusha";
 			}
 		}
 
 		if (camp != null)
 		{
 			local banner = this.Const.WushiBanners[this.Math.rand(0, this.Const.WushiBanners.len() - 1)];
-			camp.setName(campName);
 			camp.setBanner(banner);
 			camp.onSpawned();
 			_faction.addSettlement(camp, false);
