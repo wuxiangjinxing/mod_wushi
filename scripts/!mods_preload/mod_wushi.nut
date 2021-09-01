@@ -10,7 +10,6 @@
 			update(_worldState)
 			if (!this.World.Flags.get("spawnedWushi"))
 			{
-				this.logInfo("Start building Wushi faction");
 				local wushi_faction = this.new("scripts/factions/wushi_faction")
 				local faction_manager = this.World.FactionManager
 				wushi_faction.setID(faction_manager.m.Factions.len());
