@@ -144,14 +144,6 @@ this.wushi03 <- this.inherit("scripts/entity/tactical/human", {
 			this.m.Items.equip(this.new("scripts/items/" + weapons[this.Math.rand(0, weapons.len() - 1)]));
 		}
 		return true;
-	}
-	function onDeath( _killer, _skill, _tile, _fatalityType )
-	{
-		if (!this.World.Flags.has("Wushi03_Defeated"))
-		{
-			this.World.Flags.add("Wushi03_Defeated");
-		}
-		this.actor.onDeath(_killer, _skill, _tile, _fatalityType);
 	}	
 });
 

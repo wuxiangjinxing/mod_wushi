@@ -22,11 +22,14 @@ this.wushi03_camp_location <- this.inherit("scripts/entity/world/location", {
 		
 	}
 
-	function createDefenders()
+	function onBeforeCombatStarted()
 	{
-		this.location.createDefenders();		
-		if (!this.World.Flags.has("Wushi05_Defeated"))
-			this.Const.World.Common.addTroop(this, {Type = this.Const.World.Spawn.Troops.Wushi05}, false);		
+		this.location.onBeforeCombatStarted();		
+		if (!this.World.Flags.has("Wushi05"))
+		{
+			this.World.Flags.add("Wushi05");
+			this.Const.World.Common.addTroop(this, {Type = this.Const.World.Spawn.Troops.Wushi05}, false);
+		}
 	}
 
 	function onDropLootForPlayer( _lootTable )

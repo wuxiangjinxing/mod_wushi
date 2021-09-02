@@ -317,7 +317,7 @@ gt.Const.World.Spawn.Troops.Wushi <-
 gt.Const.World.Spawn.Troops.Wushi02 <-
 	{
 		ID = this.Const.EntityType.Wushi02,
-		Variant = 100,
+		Variant = 200,
 		Strength = 20,
 		Cost = 40,
 		Row = 1,
@@ -328,7 +328,7 @@ gt.Const.World.Spawn.Troops.Wushi02 <-
 gt.Const.World.Spawn.Troops.Wushi03 <-
 	{
 		ID = this.Const.EntityType.Wushi03,
-		Variant = 100,
+		Variant = 200,
 		Strength = 20,
 		Cost = 45,
 		Row = 1,
@@ -339,7 +339,7 @@ gt.Const.World.Spawn.Troops.Wushi03 <-
 gt.Const.World.Spawn.Troops.Wushi04 <-
 	{
 		ID = this.Const.EntityType.Wushi04,
-		Variant = 100,
+		Variant = 200,
 		Strength = 20,
 		Cost = 60,
 		Row = 1,
@@ -350,7 +350,7 @@ gt.Const.World.Spawn.Troops.Wushi04 <-
 gt.Const.World.Spawn.Troops.Wushi05 <-
 	{
 		ID = this.Const.EntityType.Wushi05,
-		Variant = 100,
+		Variant = 200,
 		Strength = 20,
 		Cost = 40,
 		Row = 1,
@@ -361,7 +361,7 @@ gt.Const.World.Spawn.Troops.Wushi05 <-
 gt.Const.World.Spawn.Troops.Zuqing <-
 	{
 		ID = this.Const.EntityType.Zuqing,
-		Variant = 1,
+		Variant = 0,
 		Strength = 20,
 		Cost = 20,
 		Row = 1,

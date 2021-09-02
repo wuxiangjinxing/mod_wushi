@@ -18,7 +18,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -36,7 +36,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -54,7 +54,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -72,7 +72,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -90,7 +90,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -108,7 +108,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -130,7 +130,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -152,7 +152,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -174,7 +174,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -196,7 +196,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -218,7 +218,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -236,7 +236,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -262,7 +262,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -292,7 +292,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -318,7 +318,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -344,7 +344,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -374,7 +374,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -404,7 +404,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -434,7 +434,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -460,7 +460,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -490,7 +490,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -516,7 +516,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -538,7 +538,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -564,7 +564,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -590,7 +590,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -616,7 +616,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -642,7 +642,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -672,7 +672,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -702,7 +702,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -732,7 +732,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -758,7 +758,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -784,7 +784,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -814,7 +814,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -844,7 +844,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -874,7 +874,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -900,7 +900,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -930,7 +930,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -960,7 +960,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -990,7 +990,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -1020,7 +1020,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -1050,7 +1050,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -1076,7 +1076,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -1106,7 +1106,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -1136,7 +1136,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -1166,7 +1166,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -1196,7 +1196,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -1226,7 +1226,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -1256,7 +1256,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -1286,7 +1286,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -1316,7 +1316,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -1346,7 +1346,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -1376,7 +1376,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -1406,7 +1406,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -1436,7 +1436,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -1462,7 +1462,7 @@ gt.Const.World.Spawn.WushiRoamers <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -1495,7 +1495,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -1513,7 +1513,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -1531,7 +1531,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -1549,7 +1549,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -1567,7 +1567,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -1585,7 +1585,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -1607,7 +1607,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -1629,7 +1629,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -1651,7 +1651,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -1673,7 +1673,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -1695,7 +1695,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -1717,7 +1717,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -1743,7 +1743,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -1773,7 +1773,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -1803,7 +1803,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -1829,7 +1829,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -1859,7 +1859,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -1889,7 +1889,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -1911,7 +1911,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -1941,7 +1941,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -1967,7 +1967,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -1993,7 +1993,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -2019,7 +2019,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -2045,7 +2045,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -2071,7 +2071,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -2093,7 +2093,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -2119,7 +2119,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -2145,7 +2145,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -2167,7 +2167,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -2193,7 +2193,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -2223,7 +2223,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -2249,7 +2249,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -2279,7 +2279,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -2309,7 +2309,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -2335,7 +2335,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -2365,7 +2365,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -2391,7 +2391,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -2421,7 +2421,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -2447,7 +2447,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -2473,7 +2473,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -2499,7 +2499,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -2529,7 +2529,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -2559,7 +2559,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -2585,7 +2585,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -2615,7 +2615,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -2645,7 +2645,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -2675,7 +2675,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -2701,7 +2701,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -2731,7 +2731,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -2761,7 +2761,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -2791,7 +2791,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -2817,7 +2817,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -2847,7 +2847,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -2877,7 +2877,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -2903,7 +2903,7 @@ gt.Const.World.Spawn.WushiRaiders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -2936,7 +2936,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -2954,7 +2954,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -2972,7 +2972,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -2990,7 +2990,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -3008,7 +3008,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -3026,7 +3026,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -3052,7 +3052,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -3078,7 +3078,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -3104,7 +3104,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -3130,7 +3130,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -3156,7 +3156,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -3178,7 +3178,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -3208,7 +3208,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -3242,7 +3242,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -3276,7 +3276,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -3302,7 +3302,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -3332,7 +3332,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -3362,7 +3362,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -3392,7 +3392,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -3418,7 +3418,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -3452,7 +3452,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -3486,7 +3486,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -3508,7 +3508,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -3538,7 +3538,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -3568,7 +3568,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -3598,7 +3598,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -3628,7 +3628,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -3662,7 +3662,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -3692,7 +3692,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -3726,7 +3726,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -3760,7 +3760,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -3790,7 +3790,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -3824,7 +3824,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -3854,7 +3854,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -3888,7 +3888,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -3922,7 +3922,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -3956,7 +3956,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -3986,7 +3986,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -4020,7 +4020,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -4054,7 +4054,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -4088,7 +4088,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -4118,7 +4118,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -4152,7 +4152,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -4186,7 +4186,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -4220,7 +4220,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -4254,7 +4254,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -4288,7 +4288,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -4322,7 +4322,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -4356,7 +4356,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -4390,7 +4390,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -4424,7 +4424,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -4458,7 +4458,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -4492,7 +4492,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -4526,7 +4526,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -4560,7 +4560,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -4594,7 +4594,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -4628,7 +4628,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -4662,7 +4662,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -4696,7 +4696,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -4730,7 +4730,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -4760,7 +4760,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -4794,7 +4794,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -4828,7 +4828,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -4862,7 +4862,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -4896,7 +4896,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -4930,7 +4930,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -4964,7 +4964,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -4994,7 +4994,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -5028,7 +5028,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -5062,7 +5062,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -5096,7 +5096,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -5130,7 +5130,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -5164,7 +5164,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -5198,7 +5198,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -5232,7 +5232,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -5266,7 +5266,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -5300,7 +5300,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -5334,7 +5334,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -5368,7 +5368,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -5402,7 +5402,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -5436,7 +5436,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -5470,7 +5470,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -5504,7 +5504,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -5538,7 +5538,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -5572,7 +5572,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -5606,7 +5606,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -5640,7 +5640,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -5674,7 +5674,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -5708,7 +5708,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -5742,7 +5742,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -5776,7 +5776,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -5810,7 +5810,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -5844,7 +5844,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -5878,7 +5878,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
@@ -5912,7 +5912,7 @@ gt.Const.World.Spawn.WushiDefenders <- [
         MovementSpeedMult = 1.0,
         VisibilityMult = 1.0,
         VisionMult = 1.0,
-        Body = "figure_mercenary_01",
+        Body = "figure_wushi_01",
         Troops =
         [
             {
