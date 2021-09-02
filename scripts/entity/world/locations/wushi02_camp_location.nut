@@ -22,41 +22,9 @@ this.wushi02_camp_location <- this.inherit("scripts/entity/world/location", {
 		
 	}
 
-	function onSpawned()
+	function createDefenders()
 	{
-		this.location.onSpawned();
-		
-		local Troops = 
-		[		
-		    {
-			Type = this.Const.World.Spawn.Troops.Zuqing,
-			Num = 8
-			}		
-			{
-			Type = this.Const.World.Spawn.Troops.Wushi,
-			Num = 5
-			}	
-			{
-			Type = this.Const.World.Spawn.Troops.Renzhe02,
-			Num = 8
-			}	
-			{
-			Type = this.Const.World.Spawn.Troops.Renzhe,
-			Num = 4
-			}	
-			{
-			Type = this.Const.World.Spawn.Troops.Sengbing,
-			Num = 6
-			}				
-		]
-		
-		foreach(troop in Troops)
-		{
-			for( local i = 0; i < troop.Num; i = ++i )
-			{
-				this.Const.World.Common.addTroop(this, {Type = troop.Type}, false);
-			}			
-		}
+		this.location.createDefenders();
 		if (!this.World.Flags.has("Wushi03_Defeated"))
 			this.Const.World.Common.addTroop(this, {Type = this.Const.World.Spawn.Troops.Wushi03}, false);
 			
