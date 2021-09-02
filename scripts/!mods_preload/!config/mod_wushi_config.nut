@@ -259,10 +259,10 @@ gt.Const.Strings.EntityName.extend([
 ]);
 
 gt.Const.Strings.EntityNamePlural.extend([
-	"Elite ninja",
+	"Shinobu",
 	"Ninja",
 	"Sohei",
-	"The samurai",
+	"Samurai",
 	"Tadahisa Ishikawa",
 	"Ueda Takeshi",
 	"Hideo Yamada",
