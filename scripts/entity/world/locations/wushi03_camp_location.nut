@@ -16,7 +16,7 @@ this.wushi03_camp_location <- this.inherit("scripts/entity/world/location", {
 		this.m.CombatLocation.CutDownTrees = false;
 		this.m.CombatLocation.AdditionalRadius = 5;
 		this.m.IsDespawningDefenders = false;
-		//this.setDefenderSpawnList(this.Const.World.Spawn.NomadJin);
+		this.setDefenderSpawnList(this.Const.World.Spawn.WushiDefenders);
 		this.m.Resources = 300;
 		this.m.NamedShieldsList = this.Const.Items.NamedSouthernShields;
 		

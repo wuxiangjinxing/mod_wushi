@@ -100,9 +100,9 @@ this.send_wushi_ambushers_action <- this.inherit("scripts/factions/faction_actio
 			{
 			 mult *= distanceToNextSettlement / 14;
 			}
-		local party = this.getFaction().spawnEntity(settlement.getTile(), "Wokou", false, this.Const.World.Spawn.BanditRaiders, this.Math.rand(75, 120) * this.getScaledDifficultyMult() * mult);
+		local party = this.getFaction().spawnEntity(settlement.getTile(), "Samurai", false, this.Const.World.Spawn.WushiRaiders, this.Math.rand(75, 120) * this.getScaledDifficultyMult() * mult);
 		party.getSprite("banner").setBrush(settlement.getBanner());
-		party.setDescription("A rough and tough band of exotic warriors preying on the weak.");
+		party.setDescription("A group of samurai troops from the East.");
 		party.setFootprintType(this.Const.World.FootprintsType.Brigands);
 		party.getFlags().set("IsRandomlySpawned", true);
 		party.getLoot().Money = this.Math.rand(50, 200);

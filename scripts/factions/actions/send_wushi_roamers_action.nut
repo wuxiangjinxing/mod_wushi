@@ -86,10 +86,10 @@ this.send_wushi_roamers_action <- this.inherit("scripts/factions/faction_action"
 			{
 				rand *= distanceToNextSettlement / 14.0;
 			}
-		local party = this.getFaction().spawnEntity(settlement.getTile(), "Wokou", false, this.Const.World.Spawn.BanditRoamers, this.Math.min(settlement.getResources(), rand));
+		local party = this.getFaction().spawnEntity(settlement.getTile(), "Samurai", false, this.Const.World.Spawn.WushiRoamers, this.Math.min(settlement.getResources(), rand));
 
 		party.getSprite("banner").setBrush(settlement.getBanner());
-		party.setDescription("A rough and tough band of exotic warriors out to hunt for food.");
+		party.setDescription("A group of samurai troops from the East.");
 		party.setFootprintType(this.Const.World.FootprintsType.Brigands);
 		party.getFlags().set("IsRandomlySpawned", true);
 		party.getLoot().Money = this.Math.rand(0, 100);

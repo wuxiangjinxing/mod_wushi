@@ -42,7 +42,7 @@ this.wushiweapon21_01 <- this.inherit("scripts/skills/skill", {
 		this.m.MinRange = 2;
 		this.m.MaxRange = 4;
 		this.m.MaxLevelDifference = 4;
-		this.m.ProjectileType = this.Const.ProjectileType.Shoulijian02;
+		this.m.ProjectileType = this.Const.ProjectileType.Shoulijian03;
 	}
 
 	function addResources()

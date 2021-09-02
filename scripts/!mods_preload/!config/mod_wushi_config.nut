@@ -41,3 +41,5 @@ gt.Const.FactionTrait.Actions.push([
 gt.Const.WushiBanners <- [
 	"banner_wushi"	
 ];
+
+gt.Const.Music.WushiTracks <- ["music/wushi.ogg"]
