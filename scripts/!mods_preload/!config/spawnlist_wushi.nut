@@ -10,6 +10,7 @@ if (!("Spawn" in gt.Const.World))
 {
     gt.Const.World.Spawn <- {};
 }
+
 gt.Const.World.Spawn.WushiRoamers <- [
 
     {
