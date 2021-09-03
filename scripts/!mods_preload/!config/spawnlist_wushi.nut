@@ -126,6 +126,36 @@ gt.Const.World.Spawn.WushiDefenders <- [
         Body = "figure_wushi_01",
         Troops =
         [
+            {
+            Type = this.Const.World.Spawn.Troops.Zuqing,
+            Num = 5
+            },
+            {
+            Type = this.Const.World.Spawn.Troops.Renzhe02,
+            Num = 3
+            },			
+            {
+            Type = this.Const.World.Spawn.Troops.Wushi,
+            Num = 1
+            },
+			{
+			Type = this.Const.World.Spawn.Troops.Renzhe,
+			Num = 1
+			},
+			{
+			Type = this.Const.World.Spawn.Troops.Sengbing,
+			Num = 2
+			}			
+        ]
+    },
+    {
+        Cost = 0,
+        MovementSpeedMult = 1.0,
+        VisibilityMult = 1.0,
+        VisionMult = 1.0,
+        Body = "figure_wushi_01",
+        Troops =
+        [
 		    {
 			Type = this.Const.World.Spawn.Troops.Zuqing,
 			Num = 8

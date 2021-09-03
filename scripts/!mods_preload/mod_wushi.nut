@@ -3,16 +3,32 @@
 {
 	::mods_hookNewObjectOnce("factions/faction_manager", function (o)
 	{
-		local createFactions = o.createFactions;		
-		o.createFactions = function( _settings )
-		{	
-			createFactions( _settings )
-			local wushi_faction = this.new("scripts/factions/wushi_faction")
-			wushi_faction.setID(this.m.Factions.len());
-			wushi_faction.setName("Samurai");
-			wushi_faction.setDiscovered(true);
-			wushi_faction.addTrait(this.Const.FactionTrait.Wushi);
-			this.m.Factions.push(wushi_faction);
+		local createFactions = o.createFactions;
+		if (::mods_getRegisteredMod("mod_legends") != null)
+		{
+			o.createFactions = function( _settings )
+			{	
+				createFactions( _settings )
+				local wushi_faction = this.new("scripts/factions/wushi_faction")
+				wushi_faction.setID(this.m.Factions.len());
+				wushi_faction.setName("Samurai");
+				wushi_faction.setDiscovered(true);
+				wushi_faction.addTrait(this.Const.FactionTrait.Wushi);
+				this.m.Factions.push(wushi_faction);
+			}
+		}
+		else
+		{
+			o.createFactions = function()
+			{	
+				createFactions()
+				local wushi_faction = this.new("scripts/factions/wushi_faction")
+				wushi_faction.setID(this.m.Factions.len());
+				wushi_faction.setName("Samurai");
+				wushi_faction.setDiscovered(true);
+				wushi_faction.addTrait(this.Const.FactionTrait.Wushi);
+				this.m.Factions.push(wushi_faction);
+			}			
 		}
 		
 		local runSimulation = o.runSimulation;		

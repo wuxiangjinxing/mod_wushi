@@ -66,16 +66,12 @@ this.sengbing <- this.inherit("scripts/entity/tactical/human", {
 		}
 
 		this.m.Skills.add(this.new("scripts/skills/perks/perk_brawny"));
-		this.m.Skills.add(this.new("scripts/skills/perks/perk_bullseye"));
-		this.m.Skills.add(this.new("scripts/skills/perks/perk_quick_hands"));
-		this.m.Skills.add(this.new("scripts/skills/perks/perk_relentless"));
 		this.m.Skills.add(this.new("scripts/skills/actives/rotation"));
 		this.m.Skills.add(this.new("scripts/skills/actives/recover_skill"));
-		this.m.Skills.add(this.new("scripts/skills/perks/perk_pathfinder"));
+		this.m.Skills.add(this.new("scripts/skills/perks/perk_relentless"));		
 		this.m.Skills.add(this.new("scripts/skills/perks/perk_nimble"));
-	    this.m.Skills.add(this.new("scripts/skills/perks/perk_brawny"));
 		this.m.Skills.add(this.new("scripts/skills/perks/perk_underdog"));
-		this.m.Skills.add(this.new("scripts/skills/effects/dodge_effect"));
+		this.m.Skills.add(this.new("scripts/skills/perks/perk_dodge"));
 	}
 
 	function onOtherActorDeath( _killer, _victim, _skill )
@@ -126,17 +122,12 @@ this.sengbing <- this.inherit("scripts/entity/tactical/human", {
 		}
 
 		this.getSprite("miniboss").setBrush("bust_miniboss");
-		local weapons = [
-			"weapons/named/named_wushiweapon11"
-			
-			
-		];
 		
+		local weapons = [
+			"weapons/named/named_wushiweapon11"			
+		];
 
-		if (this.Math.rand(1, 100) <= 99)
-		{
-			this.m.Items.equip(this.new("scripts/items/" + weapons[this.Math.rand(0, weapons.len() - 1)]));
-		}
+		this.m.Items.equip(this.new("scripts/items/" + weapons[this.Math.rand(0, weapons.len() - 1)]));
 		return true;
 	}
 });
