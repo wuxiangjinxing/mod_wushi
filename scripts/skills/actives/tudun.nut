@@ -3,10 +3,10 @@ this.tudun <- this.inherit("scripts/skills/skill", {
 	function create()
 	{
 		this.m.ID = "actives.tudun";
-		this.m.Name = "Darkflight";
-		this.m.Description = "";
-		this.m.Icon = "skills/active_28.png";
-		this.m.IconDisabled = "skills/active_11_sw.png";
+		this.m.Name = "Toton";
+		this.m.Description = "Hide in rocks, move under sands, flash and be your death.";
+		this.m.Icon = "skills/tudun.png";
+		this.m.IconDisabled = "skills/tudun_sw.png";
 		this.m.Overlay = "tudun";
 		this.m.SoundOnUse = [
 			"sounds/combat/tudun.wav",
@@ -25,7 +25,7 @@ this.tudun <- this.inherit("scripts/skills/skill", {
 		this.m.IsAttack = false;
 		this.m.IsIgnoredAsAOO = true;
 		this.m.ActionPointCost = 4;
-		this.m.FatigueCost = 1;
+		this.m.FatigueCost = 10;
 		this.m.MinRange = 1;
 		this.m.MaxRange = 6;
 		this.m.MaxLevelDifference = 4;
