@@ -66,7 +66,6 @@ this.sengbing <- this.inherit("scripts/entity/tactical/human", {
 		}
 
 		this.m.Skills.add(this.new("scripts/skills/perks/perk_brawny"));
-		this.m.Skills.add(this.new("scripts/skills/actives/rotation"));
 		this.m.Skills.add(this.new("scripts/skills/actives/recover_skill"));
 		this.m.Skills.add(this.new("scripts/skills/perks/perk_relentless"));		
 		this.m.Skills.add(this.new("scripts/skills/perks/perk_nimble"));
