@@ -65,7 +65,7 @@ this.zuqing <- this.inherit("scripts/entity/tactical/human", {
 			}
 		}
 
-		this.m.Skills.add(this.new("scripts/skills/actives/rotation"));		
+		this.m.Skills.add(this.new("scripts/skills/perks/perk_rotation"));	
 	}
 
 	function onOtherActorDeath( _killer, _victim, _skill )
