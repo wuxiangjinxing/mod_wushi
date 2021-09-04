@@ -98,16 +98,12 @@ this.renzhe <- this.inherit("scripts/entity/tactical/human", {
 		local weapons = [
 		    "weapons/wushiweapon05",
 			"weapons/wushiweapon06",
-			"weapons/named/named_wushiweapon23",
 		];
         this.m.Items.addToBag(this.new("scripts/items/weapons/wushiweapon21"));
 		this.m.Items.equip(this.new("scripts/items/" + weapons[this.Math.rand(0, weapons.len() - 1)]));
 
-		
-
 		local armor = [
-			"armor/wushi_armor05",
-			
+			"armor/wushi_armor05",			
 		];
 		this.m.Items.equip(this.new("scripts/items/" + armor[this.Math.rand(0, armor.len() - 1)]));
 		local helmet = [
@@ -115,6 +111,22 @@ this.renzhe <- this.inherit("scripts/entity/tactical/human", {
 		];
 		this.m.Items.equip(this.new("scripts/items/" + helmet[this.Math.rand(0, helmet.len() - 1)]));
 	}
-    
+
+    function makeMiniboss()
+	{
+		if (!this.actor.makeMiniboss())
+		{
+			return false;
+		}
+
+		this.getSprite("miniboss").setBrush("bust_miniboss");
+		
+		local weapons = [
+			"weapons/named/named_wushiweapon23"			
+		];
+
+		this.m.Items.equip(this.new("scripts/items/" + weapons[this.Math.rand(0, weapons.len() - 1)]));
+		return true;
+	}    
 });
 

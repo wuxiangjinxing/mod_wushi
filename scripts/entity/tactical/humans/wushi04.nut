@@ -107,7 +107,7 @@ this.wushi04 <- this.inherit("scripts/entity/tactical/human", {
 		
 		this.m.Items.equip(this.new("scripts/items/" + weapons[this.Math.rand(0, weapons.len() - 1)]));
 
-		
+		this.m.Items.equip(this.new("scripts/items/ammo/quiver_of_arrows"));
 
 		local armor = [
 			"armor/named/named_wushi_armor10",
@@ -129,16 +129,18 @@ this.wushi04 <- this.inherit("scripts/entity/tactical/human", {
 
 		this.getSprite("miniboss").setBrush("bust_miniboss");
 		local weapons = [
-			"weapons/named/named_wushiweapon19"
-			
-			
+			"weapons/named/named_wushiweapon19"			
 		];
 		
-
 		if (this.Math.rand(1, 100) <= 99)
 		{
 			this.m.Items.equip(this.new("scripts/items/" + weapons[this.Math.rand(0, weapons.len() - 1)]));
 		}
+		
+		local weapons = [
+			"weapons/named/named_wushiweapon20"		
+		];
+		this.m.Items.addToBag(this.new("scripts/items/" + weapons[this.Math.rand(0, weapons.len() - 1)]));		
 		return true;
 	}
 });

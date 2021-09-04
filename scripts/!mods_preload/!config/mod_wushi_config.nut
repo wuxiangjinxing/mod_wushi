@@ -171,7 +171,7 @@ gt.Const.Tactical.Actor.Wushi04 <- {
 	Bravery = 180,
 	Stamina = 155,
 	MeleeSkill = 85,
-	RangedSkill = 5,
+	RangedSkill = 65,
 	MeleeDefense = 35,
 	RangedDefense = 15,
 	Initiative = 120,
@@ -273,7 +273,7 @@ gt.Const.Strings.EntityNamePlural.extend([
 gt.Const.World.Spawn.Troops.Renzhe <-
 	{
 		ID = this.Const.EntityType.Renzhe,
-		Variant = 0,
+		Variant = 1,
 		Strength = 10,
 		Cost = 35,
 		Row = 3,
