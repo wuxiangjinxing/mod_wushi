@@ -157,7 +157,7 @@ this.drive_away_wushi_contract <- this.inherit("scripts/contracts/contract", {
 						properties.Music = this.Const.Music.WushiTracks;
 						properties.Entities.push({
 							ID = this.Const.EntityType.Wushi,
-							Variant = 0,
+							Variant = 200,
 							Row = 2,
 							Script = "scripts/entity/tactical/humans/wushi",
 							Faction = _dest.getFaction(),
