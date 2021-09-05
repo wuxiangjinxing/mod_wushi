@@ -25,7 +25,7 @@ this.wushi_camp_location <- this.inherit("scripts/entity/world/location", {
 	function onBeforeCombatStarted()
 	{
 		this.location.onBeforeCombatStarted();	
-		if (!this.World.Flags.has("Wushi02"))
+		if (!this.World.Flags.has("Wushi02") && this.World.Contracts.getActiveContract() == null)
 		{
 			this.World.Flags.add("Wushi02");
 			this.Const.World.Common.addTroop(this, {Type = this.Const.World.Spawn.Troops.Wushi02}, false);

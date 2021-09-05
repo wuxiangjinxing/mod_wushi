@@ -242,6 +242,13 @@ gt.Const.EntityIcon.extend([
 	"zuqing_orientation"
 ]);
 
+gt.Const.Strings.SamuraiLeaderNames <- [
+	"Tadahisa Ishikawa",
+	"Ueda Takeshi",
+	"Hideo Yamada",
+	"Onimusha"
+]
+
 gt.Const.Strings.EntityName.extend([
 	"Shinobu",
 	"Ninja",
@@ -363,4 +370,6 @@ gt.Const.World.Spawn.Troops.Zuqing <-
 		Row = 1,
 		Script = "scripts/entity/tactical/humans/zuqing",
 		TitleList = null
-	}	
+	}
+
+gt.Const.FactionTrait.Actions[this.Const.FactionTrait.Settlement].push("scripts/factions/actions/drive_away_wushi_action");	

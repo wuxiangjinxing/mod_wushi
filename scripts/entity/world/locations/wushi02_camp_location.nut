@@ -25,12 +25,12 @@ this.wushi02_camp_location <- this.inherit("scripts/entity/world/location", {
 	function onBeforeCombatStarted()
 	{
 		this.location.onBeforeCombatStarted();
-		if (!this.World.Flags.has("Wushi03"))
+		if (!this.World.Flags.has("Wushi03") && this.World.Contracts.getActiveContract() == null)
 		{
 			this.World.Flags.add("Wushi03");
 			this.Const.World.Common.addTroop(this, {Type = this.Const.World.Spawn.Troops.Wushi03}, false);
 		}	
-		if (!this.World.Flags.has("Wushi04"))
+		if (!this.World.Flags.has("Wushi04") && this.World.Contracts.getActiveContract() == null)
 		{
 			this.World.Flags.add("Wushi04");
 			this.Const.World.Common.addTroop(this, {Type = this.Const.World.Spawn.Troops.Wushi04}, false);
