@@ -91,15 +91,7 @@ this.send_wushi_ambushers_action <- this.inherit("scripts/factions/faction_actio
 		local settlement = this.pickWeightedRandom(settlements);
 		settlement.setLastSpawnTimeToNow();
 		local mult = this.World.FactionManager.isCivilWar() ? 1.1 : 1.0;
-		if (this.World.Assets.getCombatDifficulty() == this.Const.Difficulty.Legendary)
-			{
-			local mult = this.World.FactionManager.isCivilWar() ? 1.2 : 1.0;
-			}
 		local distanceToNextSettlement = this.getDistanceToSettlements(settlement.getTile());
-		if (this.LegendsMod.Configs().LegendLocationScalingEnabled() && distanceToNextSettlement > 14)
-			{
-			 mult *= distanceToNextSettlement / 14;
-			}
 		local party = this.getFaction().spawnEntity(settlement.getTile(), "Samurai", false, this.Const.World.Spawn.WushiRaiders, this.Math.rand(75, 120) * this.getScaledDifficultyMult() * mult);
 		party.getSprite("banner").setBrush(settlement.getBanner());
 		party.setDescription("A group of samurai troops from the East.");

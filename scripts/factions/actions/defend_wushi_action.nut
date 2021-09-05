@@ -30,10 +30,6 @@ this.defend_wushi_action <- this.inherit("scripts/factions/faction_action", {
 
 			local mult = 0.66;
 			local distanceToNextSettlement = this.getDistanceToSettlements(s.getTile());
-			if (this.LegendsMod.Configs().LegendLocationScalingEnabled() && distanceToNextSettlement > 14)
-			{
-				mult *= distanceToNextSettlement / 14.0;
-			}
 
 			local entities = this.World.getAllEntitiesAtPos(s.getPos(), 400.0);
 
@@ -90,10 +86,6 @@ this.defend_wushi_action <- this.inherit("scripts/factions/faction_action", {
 
 			local mult = 0.66;
 			local distanceToNextSettlement = this.getDistanceToSettlements(this.m.Settlement.getTile());
-			if (this.LegendsMod.Configs().LegendLocationScalingEnabled() && distanceToNextSettlement > 14)
-			{
-				mult *= distanceToNextSettlement / 14.0;
-			}
 			local party = this.getFaction().spawnEntity(spawnpoints[i], "Samurai", false, this.Const.World.Spawn.WushiDefenders, this.m.Settlement.getResources() * mult);
 			party.getSprite("banner").setBrush(this.m.Settlement.getBanner());
 			party.setDescription("A group of samurai troops from the East.");

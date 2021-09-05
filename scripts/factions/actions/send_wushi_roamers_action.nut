@@ -82,10 +82,6 @@ this.send_wushi_roamers_action <- this.inherit("scripts/factions/faction_action"
 		settlement.setLastSpawnTimeToNow();
 		local rand = this.Math.rand(60, 110);
 		local distanceToNextSettlement = this.getDistanceToSettlements(settlement.getTile());
-			if (this.LegendsMod.Configs().LegendLocationScalingEnabled() && distanceToNextSettlement > 14)
-			{
-				rand *= distanceToNextSettlement / 14.0;
-			}
 		local party = this.getFaction().spawnEntity(settlement.getTile(), "Samurai", false, this.Const.World.Spawn.WushiRoamers, this.Math.min(settlement.getResources(), rand));
 
 		party.getSprite("banner").setBrush(settlement.getBanner());
