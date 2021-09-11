@@ -26,7 +26,7 @@ gt.Const.FactionBase.push("bust_base_wushi");
 
 gt.Const.FactionAlliance.push([this.Const.Faction.Wushi]);
 
-gt.Const.FactionTrait.Wushi <- gt.Const.FactionTrait.len() - 1;
+gt.Const.FactionTrait.Wushi <- gt.Const.Faction.Wushi;
 gt.Const.FactionTrait.Actions.push([
 "scripts/factions/actions/build_wushi_camp_action",
 "scripts/factions/actions/send_wushi_ambushers_action",
@@ -43,54 +43,14 @@ gt.Const.Music.WushiTracks <- ["music/wushi.ogg"]
 gt.Const.Tactical.Actor.Renzhe <- {
 	XP = 400,
 	ActionPoints = 9,
-	Hitpoints = 130,
-	Bravery = 90,
+	Hitpoints = 70,
+	Bravery = 85,
 	Stamina = 120,
-	MeleeSkill = 80,
+	MeleeSkill = 85,
 	RangedSkill = 5,
-	MeleeDefense = 25,
-	RangedDefense = 5,
-	Initiative = 130,
-	FatigueEffectMult = 1.0,
-	MoraleEffectMult = 1.0,
-	Armor = [
-		0,
-		0
-	],
-	FatigueRecoveryRate = 15
-};
-
-gt.Const.Tactical.Actor.Renzhe02 <- {
-	XP = 200,
-	ActionPoints = 9,
-	Hitpoints = 100,
-	Bravery = 80,
-	Stamina = 120,
-	MeleeSkill = 65,
-	RangedSkill = 65,
 	MeleeDefense = 20,
-	RangedDefense = 20,
+	RangedDefense = 10,
 	Initiative = 130,
-	FatigueEffectMult = 1.0,
-	MoraleEffectMult = 1.0,
-	Armor = [
-		0,
-		0
-	],
-	FatigueRecoveryRate = 15
-};
-
-gt.Const.Tactical.Actor.Sengbing <- {
-	XP = 300,
-	ActionPoints = 9,
-	Hitpoints = 140,
-	Bravery = 180,
-	Stamina = 135,
-	MeleeSkill = 65,
-	RangedSkill = 5,
-	MeleeDefense = 15,
-	RangedDefense = 15,
-	Initiative = 110,
 	FatigueEffectMult = 1.0,
 	MoraleEffectMult = 1.0,
 	Armor = [
@@ -100,14 +60,14 @@ gt.Const.Tactical.Actor.Sengbing <- {
 	FatigueRecoveryRate = 20
 };
 
-gt.Const.Tactical.Actor.Wushi <- {
+gt.Const.Tactical.Actor.Renzhe02 <- {
 	XP = 400,
 	ActionPoints = 9,
-	Hitpoints = 150,
-	Bravery = 100,
-	Stamina = 130,
-	MeleeSkill = 75,
-	RangedSkill = 5,
+	Hitpoints = 80,
+	Bravery = 85,
+	Stamina = 120,
+	MeleeSkill = 80,
+	RangedSkill = 70,
 	MeleeDefense = 20,
 	RangedDefense = 20,
 	Initiative = 130,
@@ -117,18 +77,58 @@ gt.Const.Tactical.Actor.Wushi <- {
 		0,
 		0
 	],
+	FatigueRecoveryRate = 20
+};
+
+gt.Const.Tactical.Actor.Sengbing <- {
+	XP = 300,
+	ActionPoints = 9,
+	Hitpoints = 50,
+	Bravery = 60,
+	Stamina = 135,
+	MeleeSkill = 65,
+	RangedSkill = 5,
+	MeleeDefense = 0,
+	RangedDefense = 0,
+	Initiative = 110,
+	FatigueEffectMult = 1.0,
+	MoraleEffectMult = 1.0,
+	Armor = [
+		0,
+		0
+	],
 	FatigueRecoveryRate = 15
+};
+
+gt.Const.Tactical.Actor.Wushi <- {
+	XP = 400,
+	ActionPoints = 9,
+	Hitpoints = 90,
+	Bravery = 80,
+	Stamina = 135,
+	MeleeSkill = 75,
+	RangedSkill = 5,
+	MeleeDefense = 20,
+	RangedDefense = 15,
+	Initiative = 130,
+	FatigueEffectMult = 1.0,
+	MoraleEffectMult = 1.0,
+	Armor = [
+		0,
+		0
+	],
+	FatigueRecoveryRate = 20
 };
 
 gt.Const.Tactical.Actor.Wushi02 <- {
 	XP = 500,
 	ActionPoints = 9,
-	Hitpoints = 190,
-	Bravery = 180,
+	Hitpoints = 90,
+	Bravery = 100,
 	Stamina = 145,
 	MeleeSkill = 80,
 	RangedSkill = 5,
-	MeleeDefense = 30,
+	MeleeDefense = 25,
 	RangedDefense = 15,
 	Initiative = 120,
 	FatigueEffectMult = 1.0,
@@ -143,12 +143,12 @@ gt.Const.Tactical.Actor.Wushi02 <- {
 gt.Const.Tactical.Actor.Wushi03 <- {
 	XP = 500,
 	ActionPoints = 9,
-	Hitpoints = 190,
-	Bravery = 180,
+	Hitpoints = 90,
+	Bravery = 100,
 	Stamina = 145,
 	MeleeSkill = 85,
 	RangedSkill = 5,
-	MeleeDefense = 30,
+	MeleeDefense = 15,
 	RangedDefense = 15,
 	Initiative = 120,
 	FatigueEffectMult = 1.0,
@@ -163,12 +163,12 @@ gt.Const.Tactical.Actor.Wushi03 <- {
 gt.Const.Tactical.Actor.Wushi04 <- {
 	XP = 800,
 	ActionPoints = 9,
-	Hitpoints = 200,
-	Bravery = 180,
+	Hitpoints = 90,
+	Bravery = 100,
 	Stamina = 155,
 	MeleeSkill = 85,
-	RangedSkill = 65,
-	MeleeDefense = 35,
+	RangedSkill = 75,
+	MeleeDefense = 25,
 	RangedDefense = 15,
 	Initiative = 120,
 	FatigueEffectMult = 1.0,
@@ -183,8 +183,8 @@ gt.Const.Tactical.Actor.Wushi04 <- {
 gt.Const.Tactical.Actor.Wushi05 <- {
 	XP = 500,
 	ActionPoints = 9,
-	Hitpoints = 200,
-	Bravery = 180,
+	Hitpoints = 90,
+	Bravery = 100,
 	Stamina = 155,
 	MeleeSkill = 80,
 	RangedSkill = 5,
@@ -203,13 +203,13 @@ gt.Const.Tactical.Actor.Wushi05 <- {
 gt.Const.Tactical.Actor.Zuqing <- {
 	XP = 200,
 	ActionPoints = 9,
-	Hitpoints = 120,
-	Bravery = 80,
+	Hitpoints = 80,
+	Bravery = 65,
 	Stamina = 125,
 	MeleeSkill = 65,
 	RangedSkill = 5,
-	MeleeDefense = 15,
-	RangedDefense = 15,
+	MeleeDefense = 10,
+	RangedDefense = 10,
 	Initiative = 120,
 	FatigueEffectMult = 1.0,
 	MoraleEffectMult = 1.0,
@@ -217,7 +217,7 @@ gt.Const.Tactical.Actor.Zuqing <- {
 		0,
 		0
 	],
-	FatigueRecoveryRate = 20
+	FatigueRecoveryRate = 15
 };
 
 gt.Const.EntityType.Renzhe <- gt.Const.EntityType.len() - 2
