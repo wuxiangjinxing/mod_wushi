@@ -26,7 +26,7 @@ gt.Const.FactionBase.push("bust_base_wushi");
 
 gt.Const.FactionAlliance.push([this.Const.Faction.Wushi]);
 
-gt.Const.FactionTrait.Wushi <- gt.Const.Faction.Wushi;
+gt.Const.FactionTrait.Wushi <- gt.Const.FactionTrait.len() - 1;
 gt.Const.FactionTrait.Actions.push([
 "scripts/factions/actions/build_wushi_camp_action",
 "scripts/factions/actions/send_wushi_ambushers_action",
