@@ -13,11 +13,11 @@ gt.Const.ProjectileSprite.push("projectile_shoulijian");
 gt.Const.ProjectileSprite.push("projectile_shoulijian02");
 gt.Const.ProjectileSprite.push("projectile_shoulijian03");
 
-gt.Const.FactionType.Wushi <- gt.Const.FactionType.COUNT;
-gt.Const.FactionType.COUNT = gt.Const.FactionType.COUNT + 1;
+gt.Const.FactionType.Wushi <- gt.Const.FactionType.len() - 2;
+gt.Const.FactionType.COUNT = gt.Const.FactionType.len();
 
-gt.Const.Faction.Wushi <- gt.Const.Faction.COUNT;
-gt.Const.Faction.COUNT = gt.Const.Faction.COUNT + 1;
+gt.Const.Faction.Wushi <- gt.Const.Faction.len() - 2;
+gt.Const.Faction.COUNT = gt.Const.FactionType.len();
 
 gt.Const.FactionColor.push(this.createColor("#b75a00"));
 gt.Const.FactionColor[gt.Const.Faction.Wushi] = this.createColor("#ff9595");
